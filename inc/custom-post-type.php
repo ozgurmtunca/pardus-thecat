@@ -40,6 +40,7 @@ function pardus_portfolio_post_type() {
     'show_in_rest'    => true,
     'capability'      => 'post',
     'has_archive'     => true,
+    'slug'            => 'portfolio',
     'hierarchical'    => false,
     'menu_position'   => 6,
     'menu_icon'       => 'dashicons-portfolio',
